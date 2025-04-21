@@ -27,4 +27,4 @@ I believe some parts I could improve on if I had more time than provided would b
 
 ### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
 
-Thanks for inviting me to implement this app. I
+Thanks for inviting me to implement this app :)
