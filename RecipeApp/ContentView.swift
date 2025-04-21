@@ -21,11 +21,16 @@ struct ContentView: View {
                         .foregroundColor(.red)
                         .multilineTextAlignment(.center)
                 } else {
-                    List(filteredRecipes) { recipe in
-                        RecipeRowView(recipe: recipe)
-                    }
-                    .refreshable {
-                        await viewModel.loadRecipes()
+                    if filteredRecipes.count == 0 {
+                        Text("No recipes found.")
+                            .multilineTextAlignment(.center)
+                    } else {
+                        List(filteredRecipes) { recipe in
+                            RecipeRowView(recipe: recipe)
+                        }
+                        .refreshable {
+                            await viewModel.loadRecipes()
+                        }
                     }
                 }
             }

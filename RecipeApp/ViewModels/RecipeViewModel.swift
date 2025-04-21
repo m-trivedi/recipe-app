@@ -20,7 +20,7 @@ class RecipeViewModel: ObservableObject {
         do {
             recipes = try await RecipeAPI.shared.fetchRecipes()
         } catch {
-            errorMessage = "Failed to load recipes: \(error.localizedDescription)"
+            errorMessage = "Failed to load recipes."
         }
         isLoading = false
     }
