@@ -4,8 +4,8 @@ Hi! I'm Mihir and I'm super excited to present my implementation of the Recipe A
 
 ### Summary: Include screen shots or a video of your app highlighting its features
 
-![Main Screen](/Screenshots/IMG_2482.PNG?raw=true "Main Screen")
-![Details Screen](/Screenshots/IMG_2483.PNG?raw=true "Details Screen")
+<img src = "https://raw.githubusercontent.com/m-trivedi/recipe-app/refs/heads/main/Screenshots/IMG_2482.PNG" style = "height: 300px;">
+<img src = "https://raw.githubusercontent.com/m-trivedi/recipe-app/refs/heads/main/Screenshots/IMG_2483.PNG" style = "height: 300px;">
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 
